@@ -13,7 +13,7 @@ const Navbar = () => {
   }, [location, isBookings]);
 
   return (
-    <div className="bg-helper-300">
+    <div className="bg-helper-400">
       {location.pathname === "/bookings" && (
         <div className="pt-10 container !my-0" onClick={() => nav("/")}>
           <CircleArrowLeft className="h-10 w-10 cursor-pointer" />
