@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import Button from "./../components/Button";
 
 function Home() {
+  const nav = useNavigate();
+  const handleClick = () => {
+    nav("/bookings");
+  };
   return (
     <div className="container">
       <div className="flex items-center justify-center flex-col">
@@ -14,11 +19,16 @@ function Home() {
           <span className="font-bold">Done for you</span> monthly social media
           marketing services.
         </p>
-      <div className="btn-container self-center mt-10">
-        <Button variant="solid" color="secondary">
-          Get Started
-        </Button>
-      </div>
+        <div className="btn-container self-center mt-10">
+          <Button
+            variant="solid"
+            color="secondary"
+            size="lg"
+            onClick={handleClick}
+          >
+            Get Started
+          </Button>
+        </div>
       </div>
     </div>
   );
