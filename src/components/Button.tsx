@@ -8,7 +8,8 @@ type ButtonColor =
   | "helper"
   | "success"
   | "warning"
-  | "error";
+  | "error"
+  | "dark";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size?: ButtonSize;
@@ -93,6 +94,15 @@ const Button: React.FC<ButtonProps> = ({
           "bg-transparent text-red-500 border-transparent hover:text-red-600 focus:ring-red-300",
         glow: "bg-red-500 text-white border-red-500 shadow-lg shadow-red-500/50 hover:shadow-xl hover:shadow-red-500/60 focus:ring-red-300",
       },
+      dark: {
+        solid:
+          "bg-dark text-white border-dark hover:bg-secondary hover:text-dark focus:ring-secondary-300",
+        outlined:
+          "bg-transparent text-dark border-dark hover:bg-secondary-100 hover:text-dark focus:ring-secondary-300",
+        ghost:
+          "bg-transparent text-dark border-transparent hover:text-secondary-600 focus:ring-secondary-300",
+        glow: "bg-dark text-white border-dark shadow-lg shadow-dark/50 hover:shadow-xl hover:shadow-dark/60 focus:ring-secondary-300",
+      },
     };
 
     return colorMap[color][variant];
@@ -110,3 +120,4 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 export default Button;
+
