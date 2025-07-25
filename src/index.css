@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-bg font-montserrat;
+  @apply bg-bg font-montserrat text-dark;
 }
 
 .container {
