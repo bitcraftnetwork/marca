@@ -5,13 +5,15 @@ type Props = {
   text: string;
   variant?: "solid" | "outlined" | "ghost" | "glow";
   color?: "primary" | "secondary" | "helper" | "success" | "warning" | "dark";
-  size?: "xs" | "sm" | "md" | "lg" | "xl" | 'xxl';
+  size?: "xs" | "sm" | "md" | "lg" | "xl" | "xxl";
+  customClass?: string;
 };
 const BookACallBtn: React.FC<Props> = ({
   text = "Get Started",
   variant = "solid",
   color = "primary",
   size = "lg",
+  customClass = "",
 }) => {
   const nav = useNavigate();
   const handleClick = () => {
@@ -26,7 +28,7 @@ const BookACallBtn: React.FC<Props> = ({
       className={
         color === "dark"
           ? "bg-dark text-white"
-          : ""
+          : "" + customClass
       }
     >
       {text}

@@ -80,7 +80,7 @@ export const Image: React.FC<ImageProps> = ({
 
   // Build wrapper classes
   const wrapperClasses = [
-    "relative overflow-hidden",
+    "relative overflow-hidden rounded-2xl",
     responsive ? "w-full" : "",
     !height && responsive ? "h-auto" : "",
     wrapperClass,
