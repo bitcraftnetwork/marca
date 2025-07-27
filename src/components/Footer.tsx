@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Mail, Phone } from "lucide-react";
+import { Instagram, Mail, Phone } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { navigationItems } from "../utils/consts";
 import Image from "./Image";
