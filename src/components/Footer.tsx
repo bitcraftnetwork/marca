@@ -6,7 +6,12 @@ import Image from "./Image";
 export default function Footer() {
   const location = useLocation();
   return (
-    <footer className={`bg-gray-900 text-white ${location.pathname == "/blogs" && "absolute bottom-0 left-0 right-0"}`}>
+    <footer
+      className={`bg-gray-900 text-white ${
+        location.pathname == "/blogs" &&
+        "md:absolute md:bottom-0 md:left-0 md:right-0"
+      } max-md:mt-14`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-12 lg:py-16">
