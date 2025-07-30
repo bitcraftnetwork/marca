@@ -37,25 +37,25 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         primary:
           "bg-primary text-white hover:bg-primary-700 focus:ring-primary-500",
         secondary:
-          "bg-secondary text-dark hover:bg-secondary-700 focus:ring-secondary-500",
-        helper: "bg-helper text-dark hover:bg-helper-700 focus:ring-helper-500",
+          "bg-secondary  hover:bg-secondary-700 focus:ring-secondary-500",
+        helper: "bg-helper  hover:bg-helper-700 focus:ring-helper-500",
         dark: "bg-dark text-white hover:bg-gray-700 focus:ring-gray-500",
       },
       outline: {
         primary:
           "border-2 border-primary text-primary hover:bg-primary hover:text-white focus:ring-primary-500",
         secondary:
-          "border-2 border-secondary text-secondary-700 hover:bg-secondary hover:text-dark focus:ring-secondary-500",
+          "border-2 border-secondary text-secondary-700 hover:bg-secondary hover: focus:ring-secondary-500",
         helper:
-          "border-2 border-helper text-helper-700 hover:bg-helper hover:text-dark focus:ring-helper-500",
-        dark: "border-2 border-dark text-dark hover:bg-dark hover:text-white focus:ring-gray-500",
+          "border-2 border-helper text-helper-700 hover:bg-helper hover: focus:ring-helper-500",
+        dark: "border-2 border-dark  hover:bg-dark hover:text-white focus:ring-gray-500",
       },
       ghost: {
         primary: "text-primary hover:bg-primary-50 focus:ring-primary-500",
         secondary:
           "text-secondary-700 hover:bg-secondary-100 focus:ring-secondary-500",
         helper: "text-helper-700 hover:bg-helper-100 focus:ring-helper-500",
-        dark: "text-dark hover:bg-gray-100 focus:ring-gray-500",
+        dark: " hover:bg-gray-100 focus:ring-gray-500",
       },
     };
 
@@ -114,25 +114,29 @@ const FeatureCard = forwardRef<HTMLDivElement, FeatureCardProps>(
     return (
       <div
         ref={ref}
-        className={`rounded-2xl p-8 duration-300 max-w-sm mx-auto ${containerClassName}`}
+        className={`md:h-[360px] rounded-2xl p-4 sm:p-6 md:p-8 duration-300 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lgmx-auto bg-white shadow-lg hover:shadow-xltransition-all ${containerClassName}`}
       >
         {/* Icon Container */}
-        <div className={`flex justify-center mb-6 ${iconContainerClassName}`}>
-          <div className="bg-primary-100 p-6 rounded-full">
-            <Icon className={`w-16 h-16 text-primary ${iconClassName}`} />
+        <div
+          className={`flex justify-center mb-4 sm:mb-6 ${iconContainerClassName}`}
+        >
+          <div className="bg-blue-50 p-3 sm:p-4 md:p-6 rounded-full transition-colors hover:bg-blue-100">
+            <Icon
+              className={` w-8 h-8 sm:w-12 sm:h-12  md:w-16 md:h-16 lg:w-20 lg:h-20 ${iconClassName}`}
+            />
           </div>
         </div>
 
         {/* Title */}
-        <h3
-          className={`text-xl font-bold text-dark text-center mb-4 font-montserrat ${titleClassName}`}
+        <div
+          className={`text-lg sm:text-xl md:text-2xl font-bold text-center mb-3 sm:mb-4 text-gray-900 leading ${titleClassName}`}
         >
           {title}
-        </h3>
+        </div>
 
         {/* Description */}
         <p
-          className={`text-gray-600 text-center mb-6 leading-relaxed ${descriptionClassName}`}
+          className={`text-sm sm:text-base text-gray-600 text-center mb-4 sm:mb-6 leading-relaxedpx-2 sm:px-0 ${descriptionClassName}`}
         >
           {description}
         </p>
@@ -141,11 +145,8 @@ const FeatureCard = forwardRef<HTMLDivElement, FeatureCardProps>(
         {showButton && (
           <div className="flex justify-center">
             <Button
-              variant="solid"
-              color="primary"
-              size="lg"
               onClick={handleClick}
-              className={buttonClassName}
+              className={`px-4 py-2  sm:px-6 sm:py-3 text-sm sm:text-base font-medium transition-all hover:scale-105 ${buttonClassName}`}
             >
               {buttonText}
             </Button>

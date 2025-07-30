@@ -3,9 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-bg font-montserrat text-dark;
+  @apply bg-bg font-montserrat;
 }
-
-.container {
+section {
   @apply my-10;
 }
