@@ -1,4 +1,5 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/fncog0tseczv/public_html/
-    - /bin/cp -R dist/* $DEPLOYPATH
+    - export DEPLOYPATH=/home/fncog0tseczv/public_html
+    - /bin/cp dist/* $DEPLOYPATH
