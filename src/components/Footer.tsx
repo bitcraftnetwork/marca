@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Image
-                  src="public/images/logo.png"
+                  src="/logo.png"
                   alt="Logo"
                   imageClass="invert"
                   wrapperClass="rounded-none"
