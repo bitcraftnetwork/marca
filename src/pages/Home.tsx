@@ -3,7 +3,7 @@ import BookACallBtn from "../components/BookACallBtn";
 import { faq, imagesData } from "../utils/consts";
 import Image from "./../components/Image";
 import HowItWorks from "./HowItWorks";
-import heroSvg from "../assets/hero1.svg";
+// import heroSvg from "../assets/hero1.svg";
 function Home() {
   return (
     <>
