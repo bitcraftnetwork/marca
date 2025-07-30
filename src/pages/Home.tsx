@@ -10,7 +10,7 @@ function Home() {
       {/* Hero section */}
       <section>
         <div className="container">
-          <div className="flex items-center justify-between max-md:flex-col">
+          <div className="flex items-center justify-center max-md:flex-col">
             <div className="flex items-center justify-center flex-col text-center gap-2">
               <div className="flex items-center justify-center flex-col text-center">
                 <h1 className="md:text-4xl text-2xl font-black text-heading leading-[1.3em] md:max-w-[650px] max-w-[350px]">
@@ -30,9 +30,9 @@ function Home() {
                 />
               </div>
             </div>
-            <div className="hero-image max-md:pt-12">
+            {/* <div className="hero-image max-md:pt-12">
               <Image src={heroSvg} />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
