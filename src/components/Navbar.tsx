@@ -36,7 +36,7 @@ const Navbar = () => {
                   onClick={() => nav("/")}
                 >
                   <Image
-                    src="public/images/logo.png"
+                    src="/logo.png"
                     wrapperClass="rounded-none"
                     height={30}
                     width={70}
