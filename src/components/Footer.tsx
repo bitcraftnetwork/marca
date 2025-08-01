@@ -9,8 +9,8 @@ export default function Footer() {
     <footer
       className={`bg-gray-900 text-white ${
         location.pathname == "/blogs" &&
-        "md:absolute md:bottom-0 md:left-0 md:right-0"
-      } max-md:mt-14`}
+        "md:absolute md:bottom-0 md:left-0 md:right-0 max-md:mt-14"
+      }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
@@ -39,7 +39,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center space-x-2 text-sm text-gray-300">
                   <Mail className="w-4 h-4" />
-                  <span>hello@logoname.com</span>
+                  <span>contact@docversemedia.com</span>
                 </div>
               </div>
             </div>
@@ -70,7 +70,11 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white transition-colors text-sm"
                   >
-                    <Instagram className="w-4 h-4" />
+                    <div className="flex items-center space-x-2">
+                      {" "}
+                      <Instagram className="w-4 h-4" />{" "}
+                      <span>Docverse Media</span>
+                    </div>
                   </a>
                 </li>
                 {/* Add more social media links */}

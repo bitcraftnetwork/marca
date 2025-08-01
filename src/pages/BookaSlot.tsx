@@ -27,7 +27,7 @@ function BookaSlot() {
               <span className=" font-bold text-heading">Below</span>
             </div>
           </div>
-          <div className="wrapper-calendly">
+          <div className="wrapper-calendly max-md:mt-12 max-md:pb-5">
             <Calendly />
           </div>
         </div>
