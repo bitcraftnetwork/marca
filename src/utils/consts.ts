@@ -3,7 +3,7 @@ import {
   Clapperboard,
   FileVideo2,
   ScrollIcon,
-  Search
+  Search,
 } from "lucide-react";
 
 // Images array for dynamic component rendering
@@ -14,6 +14,7 @@ export const imagesData = [
     alt: "Dr. Mithun Panchal",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drmithunyoutube",
@@ -21,6 +22,7 @@ export const imagesData = [
     alt: "Dr. Mithun YouTube",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "draditya",
@@ -28,6 +30,7 @@ export const imagesData = [
     alt: "Dr. Aditya",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drsandip",
@@ -35,6 +38,7 @@ export const imagesData = [
     alt: "Dr. Sandip",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drashish",
@@ -42,6 +46,7 @@ export const imagesData = [
     alt: "Dr. Ashish",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "aadicura",
@@ -49,6 +54,7 @@ export const imagesData = [
     alt: "aadicura",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drdhurtii",
@@ -56,13 +62,15 @@ export const imagesData = [
     alt: "Dr. Dhurtii",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drdhurtii1",
     src: "/drdhurti1.jpg",
     alt: "Dr. Dhurtii",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
-    imageClass: "!object-contain",
+    imageClass: "!object-contain", 
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "drsumit3",
@@ -70,6 +78,7 @@ export const imagesData = [
     alt: "Dr. Sumit 3",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
   {
     id: "dryuvi1",
@@ -77,6 +86,7 @@ export const imagesData = [
     alt: "Dr. Yuvi",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
+    url: "https://www.instagram.com/docversemedia",
   },
 ];
 

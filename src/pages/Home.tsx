@@ -14,12 +14,12 @@ function Home() {
             <div className="flex items-center justify-center flex-col text-center gap-2">
               <div className="flex items-center justify-center flex-col text-center">
                 <h1 className="md:text-4xl text-2xl font-black text-heading leading-[1.3em] md:max-w-[650px] max-w-[350px]">
-                  GROW & SELL ON SOCIAL MEDIA AS A BUSY BUSINESS OWNER.
+                  DOCTORS: Build Your Brand, Attract More Patients.
                 </h1>
               </div>
-              <p className="text-lg font-medium">
-                <span className="font-bold">Done for you</span> monthly social
-                media marketing services.
+              <p className="text-lg font-medium max-w-4xl">
+                Our goal is to establish a strong online presence for your
+                brand, ultimately driving sustainable business growth
               </p>
               <div className="btn-container self-center">
                 <BookACallBtn
@@ -53,7 +53,15 @@ function Home() {
           </div>
           <div className="space-y-5">
             {imagesData.map((image) => (
-              <Image src={image.src} key={image.id} alt={image.alt} />
+              <a
+                href={image.url}
+                target="_blank"
+                rel="noreferrer"
+                key={image.id}
+                className="inline-block w-full"
+              >
+                <Image src={image.src} key={image.id} alt={image.alt} />
+              </a>
             ))}
           </div>
         </div>
