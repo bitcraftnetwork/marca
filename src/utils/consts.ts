@@ -14,7 +14,7 @@ export const imagesData = [
     alt: "Dr. Mithun Panchal",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/drmithunpanchal?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "drmithunyoutube",
@@ -22,7 +22,7 @@ export const imagesData = [
     alt: "Dr. Mithun YouTube",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://youtube.com/@drmithunpanchal?si=cXGaubjatcKjfJWO",
   },
   {
     id: "draditya",
@@ -30,7 +30,7 @@ export const imagesData = [
     alt: "Dr. Aditya",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/skincarewithdraditya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "drsandip",
@@ -38,7 +38,7 @@ export const imagesData = [
     alt: "Dr. Sandip",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/drsandipmavani/?utm_source=ig_web_button_share_sheet",
   },
   {
     id: "drashish",
@@ -46,7 +46,7 @@ export const imagesData = [
     alt: "Dr. Ashish",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/drashishdesaineuro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "aadicura",
@@ -54,7 +54,7 @@ export const imagesData = [
     alt: "aadicura",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/aadicurahospitals?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "drdhurtii",
@@ -62,15 +62,15 @@ export const imagesData = [
     alt: "Dr. Dhurtii",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/dr.dhrutianklesaria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "drdhurtii1",
     src: "/drdhurti1.jpg",
     alt: "Dr. Dhurtii",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
-    imageClass: "!object-contain", 
-    url: "https://www.instagram.com/docversemedia",
+    imageClass: "!object-contain",
+    url: "https://www.instagram.com/dr.dhrutianklesaria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "drsumit3",
@@ -78,7 +78,7 @@ export const imagesData = [
     alt: "Dr. Sumit 3",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/drsumitkapadia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "dryuvi1",
@@ -86,10 +86,9 @@ export const imagesData = [
     alt: "Dr. Yuvi",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
-    url: "https://www.instagram.com/docversemedia",
+    url: "https://www.instagram.com/doctoryuvi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
 ];
-
 export const faq = [
   {
     question: "Who is this for?",
