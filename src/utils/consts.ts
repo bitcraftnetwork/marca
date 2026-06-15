@@ -6,8 +6,16 @@ import {
   Search,
 } from "lucide-react";
 
+type ImageData = {
+  id: string;
+  src: string;
+  alt: string;
+  wrapperClass: string;
+  imageClass: string;
+  url: string;
+};
 // Images array for dynamic component rendering
-export const imagesData = [
+export const imagesData: ImageData[] = [
   {
     id: "drmithunpanchal1",
     src: "/drmithunpanchal1.jpg",
@@ -87,6 +95,70 @@ export const imagesData = [
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
     url: "https://www.instagram.com/doctoryuvi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  }, 
+  {
+    id: "aditya",
+    src: "/DRADITYA.jpeg",
+    alt: "Dr. Aditya",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "aditya",
+    src: "/DRDEVENDRA.jpeg",
+    alt: "Dr. Devendra",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "Preay",
+    src: "/DRPREAYMEHTA1.jpeg",
+    alt: "Dr. Preay Mehta",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "Preay",
+    src: "/DRPREAYMEHTA.jpeg",
+    alt: "Dr. Preay Mehta",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "Sandip",
+    src: "/DRSANDIP.jpeg",
+    alt: "Dr. Sandip",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "Sumit",
+    src: "/DRSUMIT3.jpeg",
+    alt: "Dr. Sumit",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "DRASHTI",
+    src: "/DRDRASHTI.jpeg",
+    alt: "Dr. Drashti",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
+  },
+  {
+    id: "DRMITHUNPANCHAL",
+    src: "/DRMITHUNPANCHAL.jpeg",
+    alt: "Dr. Mithun Panchal",
+    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
+    imageClass: "!object-contain",
+    url: "",
   },
 ];
 export const faq = [
@@ -114,6 +186,11 @@ export const faq = [
     question: "What if I already have a social media page?",
     answer:
       "Perfect. We’ll audit your current presence, refine your strategy, and take it to the next level — with better content, engagement, and conversion.",
+  },
+  {
+    question: "Are results guaranteed?",
+    answer:
+      "Our track record speaks for itself. While we can't promise specific follower counts, views, or patient inquiries in the ever-changing world of social media,we do guarantee a proven strategy, consistent execution, and complete commitment to growing your personal brand. The doctors who see the best results are the ones who trust the process and stay consistent and we're with you every step of the way.",
   },
 ];
 
@@ -147,7 +224,7 @@ export const features = [
     title: "#5. SOCIAL MEDIA MANAGEMENT",
     description:
       "We manage social media accounts, upload content consistently, and optimize it for maximum reach and engagement.",
-  },
+  }
 ];
 
 export const navigationItems = [
