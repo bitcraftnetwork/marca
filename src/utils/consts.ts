@@ -18,7 +18,7 @@ type ImageData = {
 export const imagesData: ImageData[] = [
   {
     id: "drmithunpanchal1",
-    src: "/drmithunpanchal1.jpg",
+    src: "/DRMITHUNPANCHAL.jpeg",
     alt: "Dr. Mithun Panchal",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
@@ -34,7 +34,7 @@ export const imagesData: ImageData[] = [
   },
   {
     id: "draditya",
-    src: "/draditya.jpg",
+    src: "/DRADITYA.jpeg",
     alt: "Dr. Aditya",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
@@ -95,17 +95,10 @@ export const imagesData: ImageData[] = [
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
     url: "https://www.instagram.com/doctoryuvi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
-  }, 
-  {
-    id: "aditya",
-    src: "/DRADITYA.jpeg",
-    alt: "Dr. Aditya",
-    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
-    imageClass: "!object-contain",
-    url: "",
   },
+
   {
-    id: "aditya",
+    id: "devendra",
     src: "/DRDEVENDRA.jpeg",
     alt: "Dr. Devendra",
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
@@ -151,15 +144,7 @@ export const imagesData: ImageData[] = [
     wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
     imageClass: "!object-contain",
     url: "",
-  },
-  {
-    id: "DRMITHUNPANCHAL",
-    src: "/DRMITHUNPANCHAL.jpeg",
-    alt: "Dr. Mithun Panchal",
-    wrapperClass: "h-[200px] md:h-[450px] md:mt-10 mt-5",
-    imageClass: "!object-contain",
-    url: "",
-  },
+  }, 
 ];
 export const faq = [
   {
